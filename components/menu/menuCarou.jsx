@@ -67,7 +67,7 @@ class MenuCarou extends Component {
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
                     <img className="menu-img" src={"/baconshroom-nbg.png"} alt="bacon mushroom"/>
-                    <p className="xibeile-word">Bacon Mushroom</p>
+                    <p className="xibeile-word">Bacon Enoki</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
                     <img className="menu-img" src={"/beancurdskin-nbg.png"} alt="beancurd skin"/>
@@ -86,8 +86,8 @@ class MenuCarou extends Component {
                     <p className="xibeile-word">Cheeseball</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
-                    <img className="menu-img" src={"/duckbreast-nbg.png"} alt="duckbreast"/>
-                    <p className="xibeile-word">Duck Breast</p>
+                    <img className="menu-img" src={"/duckbreast-nbg.png"} alt="smoke duck"/>
+                    <p className="xibeile-word">Smoke Duck</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
                     <img className="menu-img" src={"/meatball-nbg.png"} alt="meatball"/>

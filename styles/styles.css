@@ -40,8 +40,8 @@
 }
 
 .shadow {
-    -webkit-filter: drop-shadow(10px 10px 10px #222);
-    filter: drop-shadow(10px 10px 10px #222);
+    -webkit-filter: drop-shadow(5px 5px 5px#222);
+    filter: drop-shadow(5px 5px 5px #222);
     border-radius: 30px;
 }
 
@@ -75,7 +75,7 @@
 .xibeile-parent-main {
     position: relative;
     text-align: center;
-    top:-5%;
+    top:23%;
     left:50%;
     transform: translate(-50%, -50%);
 }
@@ -106,8 +106,8 @@
 }
 
 .menu-img-less {
-    max-height: 120px;
-    max-width: 120px;
+    max-height: 100px;
+    max-width: 100px;
     -webkit-filter: drop-shadow(10px 10px 10px #222);
     filter: drop-shadow(10px 10px 10px #222);
 }
