@@ -36,11 +36,12 @@
     border-collapse: separate;
     background-color: white;
     box-shadow: 0 -5px 25px -5px #333;
+    padding-bottom: 5rem;
 }
 
 .shadow {
     -webkit-filter: drop-shadow(25px 25px 25px #222);
-    filter: drop-shadow(25px 25px 25px #222);
+    filter: drop-shadow(10px 10px 10px #222);
     border-radius: 30px;
 }
 
@@ -133,11 +134,3 @@
         font-size: 0.7rem;
     }
 }
-
-
-
-/* @media screen and (max-width: 600px) {
-    .home {
-        background-size:275px 413px;
-    }
-} */
