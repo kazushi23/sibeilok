@@ -60,7 +60,7 @@ class SauceCarou extends Component {
         return (
         <div>
           <div style={SauceCarou.CONTAINER_STYLE}>
-            <ReactCardCarousel ref={this.Carousel} autoplay={ true } autoplay_speed={ 5000 } disable_box_shadow={true} spread="wide">
+            <ReactCardCarousel disable_box_shadow={true} ref={this.Carousel} autoplay={ true } autoplay_speed={ 5000 } spread="wide">
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <img className="menu-img-less" src={"/saltedey-nbg.png"} alt="salted egg yolk"/>
                     <p className="xibeile-word">Salted Egg Yolk</p>
