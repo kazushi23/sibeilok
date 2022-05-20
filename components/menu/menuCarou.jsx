@@ -47,7 +47,7 @@ class MenuCarou extends Component {
 
     static get CARD_STYLE() {
         return {
-            height: "auto",
+            height: "250px",
             width: '65vw',
             maxWidth:"65vw",
             textAlign: 'center',

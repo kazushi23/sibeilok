@@ -36,7 +36,7 @@
     border-collapse: separate;
     background-color: white;
     box-shadow: 0 -5px 25px -5px #333;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
 }
 
 .shadow {
