@@ -40,7 +40,7 @@
 }
 
 .shadow {
-    -webkit-filter: drop-shadow(25px 25px 25px #222);
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
     filter: drop-shadow(10px 10px 10px #222);
     border-radius: 30px;
 }
@@ -103,6 +103,13 @@
     max-width: 150px;
     -webkit-filter: drop-shadow(25px 25px 25px #222);
     filter: drop-shadow(25px 25px 25px #222);
+}
+
+.menu-img-less {
+    max-height: 120px;
+    max-width: 120px;
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
+    filter: drop-shadow(10px 10px 10px #222);
 }
 
 .menu-heading {

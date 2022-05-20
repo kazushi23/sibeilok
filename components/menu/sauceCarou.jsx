@@ -62,23 +62,23 @@ class SauceCarou extends Component {
           <div style={SauceCarou.CONTAINER_STYLE}>
             <ReactCardCarousel ref={this.Carousel} autoplay={ true } autoplay_speed={ 5000 } disable_box_shadow={true} spread="wide">
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
-                    <img className="menu-img" src={"/saltedey-nbg.png"} alt="salted egg yolk"/>
+                    <img className="menu-img-less" src={"/saltedey-nbg.png"} alt="salted egg yolk"/>
                     <p className="xibeile-word">Salted Egg Yolk</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
-                    <img className="menu-img" src={"/mala-nbg.png"} alt="mala powder"/>
+                    <img className="menu-img-less" src={"/mala-nbg.png"} alt="mala powder"/>
                     <p className="xibeile-word">Mala Powder</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
-                    <img className="menu-img" src={"/peanut-nbg.png"} alt="peanut sauce"/>
+                    <img className="menu-img-less" src={"/peanut-nbg.png"} alt="peanut sauce"/>
                     <p className="xibeile-word">Peanut Sauce</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
-                    <img className="menu-img" src={"/thaichilli-nbg.png"} alt="thai sweet chilli"/>
+                    <img className="menu-img-less" src={"/thaichilli-nbg.png"} alt="thai sweet chilli"/>
                     <p className="xibeile-word">Thai Sweet Chilli</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
-                    <img className="menu-img" src={"/chicchilli-nbg.png"} alt="chicken rice chilli"/>
+                    <img className="menu-img-less" src={"/chicchilli-nbg.png"} alt="chicken rice chilli"/>
                     <p className="xibeile-word">Chicken Rice Chilli</p>
                 </div>
             </ReactCardCarousel>
