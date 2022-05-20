@@ -21,7 +21,7 @@
 
 .home {
     width: auto;
-    height: 87vh;
+    height: 85vh;
     padding: 2rem;
     /* background-image: url('/plattersauce-nbg.png');
     background-attachment: fixed;
@@ -88,6 +88,10 @@
     position:relative;
     text-align: center;
     /* top: 0%; */
+}
+
+.xibeile-word {
+    color: #4c9950;
 }
 
 .menu {

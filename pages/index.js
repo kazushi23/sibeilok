@@ -28,13 +28,21 @@ export default function Home() {
         </div>
         <div className="food-items" style={{backgroundColor:"white"}}>
             <div className="menu-heading">
+                <h3>Gastrobeats @ iLight festival</h3>
+                <h1>Stall T7</h1>
+                <p className="xibeile-word">Mon-Sun | 11am - 1030pm</p>
+            </div>
+            <div className="menu-heading">
                 <h3>Our Food Items</h3>
+                <p className="xibeile-word">Minimum order 5 sticks</p>
+                <p className="xibeile-word">You will wish you had more</p>
             </div>
             <motion.div initial="offscreen" whileInView="onscreen" variants={scrollvariants} viewport={{ once: true }}>
                 <MenuCarou/>
             </motion.div>
             <div className="menu-heading">
                 <h3>Our Sauces</h3>
+                <p className="xibeile-word">You will never have enough</p>
             </div>
             <motion.div initial="offscreen" whileInView="onscreen" variants={scrollvariants} viewport={{ once: true }}>
                 <SauceCarou/>
