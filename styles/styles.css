@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  Montserrat, sans-serif, 'Helvetica Neue',   -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell;
+    -webkit-tap-highlight-color: transparent;
+    font-kerning: normal !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important; 
+    -webkit-text-size-adjust: 100% !important;
+    -moz-text-size-adjust: none !important;
+    -ms-text-size-adjust: none !important;
+}
+
+.home-wrapper {
+    background-image: linear-gradient(315deg, #ffffff 0%, #9ec2a0 74%);
+    /* background-color: #9ec2a0; */
+}
+
+.home {
+    width: auto;
+    height: 87vh;
+    padding: 2rem;
+    /* background-image: url('/plattersauce-nbg.png');
+    background-attachment: fixed;
+    background-size:200px 300px;
+    background-repeat: no-repeat;
+    background-position:50% 70%; */
+}
+
+.food-items {
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-collapse: separate;
+    background-color: white;
+    box-shadow: 0 -5px 25px -5px #333;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(25px 25px 25px #222);
+    filter: drop-shadow(25px 25px 25px #222);
+    border-radius: 30px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.navbar-main-img {
+    max-height: 250px;
+    max-width: 250px;
+    z-index: 10;
+}
+
+.xibeile-parent-logo {
+    position: relative;
+    text-align: center;
+    top:8%;
+}
+
+.xibeile-parent {
+    position: relative;
+    text-align: center;
+    top:12%;
+}
+
+.xibeile-parent-main {
+    position: relative;
+    text-align: center;
+    top:-5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.xibeile-child {
+    display: inline-block;
+}
+
+.xibeile-mini {
+    position:relative;
+    text-align: center;
+    /* top: 0%; */
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.menu-img {
+    max-height: 150px;
+    max-width: 150px;
+    -webkit-filter: drop-shadow(25px 25px 25px #222);
+    filter: drop-shadow(25px 25px 25px #222);
+}
+
+.menu-heading {
+    text-align: center;
+    padding-top: 2rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-collapse: separate;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .navbar-img {
+        height: 85px;
+        width: 85px;
+    }
+    .xibeile-word {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .navbar-img {
+        height: 70px;
+        width: 70px;
+    }
+    .xibeile-word {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+/* @media screen and (max-width: 600px) {
+    .home {
+        background-size:275px 413px;
+    }
+} */
