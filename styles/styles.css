@@ -17,10 +17,13 @@
 .html {
     width:100%;
     height: 100%;
+    overflow: hidden
 }
 
 .home-wrapper {
     background-image: linear-gradient(315deg, #ffffff 0%, #9ec2a0 74%);
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 }
 
 .footer-wrapper {
@@ -45,8 +48,8 @@
 }
 
 .shadow {
-    -webkit-filter: drop-shadow(-10px 0px 5px#222);
-    filter: drop-shadow(-10px 0px 5px #222);
+    -webkit-filter: drop-shadow(.5rem .5rem 1rem#222);
+    filter: drop-shadow(.5rem .5rem 1rem #222);
     border-radius: 30px;
 }
 

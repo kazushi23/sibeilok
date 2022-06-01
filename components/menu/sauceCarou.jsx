@@ -35,7 +35,7 @@ class SauceCarou extends Component {
     static get CONTAINER_STYLE() {
         return {
             position: "relative",
-            height: "50vh",
+            height: "450px",
             width: "100%",
             // display: "flex",
             // flex: 1,

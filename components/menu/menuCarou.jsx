@@ -35,7 +35,7 @@ class MenuCarou extends Component {
     static get CONTAINER_STYLE() {
         return {
             position: "relative",
-            height: "40vh",
+            height: "380px",
             width: "100%",
             // display: "flex",
             // flex: 1,
