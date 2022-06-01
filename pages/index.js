@@ -4,6 +4,7 @@ import LandingHead from "../components/landing/landingHead";
 import SauceCarou from "../components/menu/sauceCarou";
 import MenuCarou from "../components/menu/menuCarou";
 import { motion } from "framer-motion";
+import Footer from "../components/footer/footer";
 
 const scrollvariants = {
     offscreen: {
@@ -47,6 +48,7 @@ export default function Home() {
             <motion.div initial="offscreen" whileInView="onscreen" variants={scrollvariants} viewport={{ once: true }}>
                 <SauceCarou/>
             </motion.div>
+            <Footer/>
         </div>
         </div>
     )

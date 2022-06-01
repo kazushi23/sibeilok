@@ -73,7 +73,7 @@ class SauceCarou extends Component {
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <img className="menu-img-less" src={"/peanut-nbg.png"} alt="satay sauce"/>
-                    <p className="xibeile-word">Sunat Sauce</p>
+                    <p className="xibeile-word">Peanut Sauce</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <img className="menu-img-less" src={"/thaichilli-nbg.png"} alt="thai sweet chilli"/>

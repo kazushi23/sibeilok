@@ -16,18 +16,19 @@
 
 .home-wrapper {
     background-image: linear-gradient(315deg, #ffffff 0%, #9ec2a0 74%);
-    /* background-color: #9ec2a0; */
+}
+
+.footer-wrapper {
+    background-color: #9ec2a0;
+    padding:2rem;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
 }
 
 .home {
     width: auto;
     height: 85vh;
     padding: 2rem;
-    /* background-image: url('/plattersauce-nbg.png');
-    background-attachment: fixed;
-    background-size:200px 300px;
-    background-repeat: no-repeat;
-    background-position:50% 70%; */
 }
 
 .food-items {
@@ -36,7 +37,6 @@
     border-collapse: separate;
     background-color: white;
     box-shadow: 0 -5px 25px -5px #333;
-    /* padding-bottom: 5rem; */
 }
 
 .shadow {
@@ -87,7 +87,6 @@
 .xibeile-mini {
     position:relative;
     text-align: center;
-    /* top: 0%; */
 }
 
 .xibeile-word {

@@ -29,7 +29,7 @@ export default function LandingHead() {
         </motion.div>
 
         <motion.div className="xibeile-parent" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.8}}>
-            <div className="xibeile-word">
+            <div style={{color:'white'}}>
                 <h1>西(si) 北(bei) Shiok</h1>
             </div>
             <br/>
