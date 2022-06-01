@@ -22,7 +22,27 @@ const scrollvariants = {
 
 export default function Home() {
     return (
-        // home is for the top 100vh ONLY
+        <>
+        <Head>
+        <meta charset="utf-8" />
+            <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon"/>
+            <link rel="canonical" href="https://sibeilok.netlify.app"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="theme-color" content="#9ec2a0" />
+            <meta name="author" content="Kazushi Fujiwara"></meta>
+            <meta
+            name="description"
+            content="Welcome to SibeiLok. The Lok Lok you wished you had sooner"
+            data-rh="true"
+            />
+            {/* <meta name="google-site-verification" content="Ko_rEFT7vNWtvG4kCq7iu4DvPJ-sEAu5HCvU_bgu3Pw" /> */}
+
+            <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo100.png" />
+            <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+            <title>SibeiLok - Best Lok Lok you had</title>
+        </Head>
+
         <div className="home-wrapper">
         <div className="home">
             <LandingHead/>
@@ -51,5 +71,6 @@ export default function Home() {
             <Footer/>
         </div>
         </div>
+        </>
     )
 }

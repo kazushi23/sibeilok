@@ -3,7 +3,6 @@ import { motion } from "framer-motion"
 export default function LandingHead() {
     return (
         <>
-        
         <motion.div className="xibeile-mini" initial={{y:0, opacity:0}} animate={{ opacity:1}} transition={{ duration:1, delay:1.5 }}>
             <motion.div  className="xibeile-child" animate={{ x:[0,1,2,3,4,5,4,3,2,1,0] }} transition={{ delay:1.5, duration:1, repeat:Infinity, repeatType: "reverse"}}>
                 <img src={"/bacmshrm-mini.png"} alt="loklok-logo"/>
