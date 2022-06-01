@@ -35,7 +35,7 @@
 
 .home {
     width: auto;
-    height: 85%;
+    height: 85vh;
     padding: 2rem;
 }
 
@@ -48,8 +48,9 @@
 }
 
 .shadow {
-    -webkit-filter: drop-shadow(.5rem .5rem 1rem#222);
-    filter: drop-shadow(.5rem .5rem 1rem #222);
+    /* -webkit-filter: drop-shadow(.5rem .5rem 1rem#222);
+    filter: drop-shadow(.5rem .5rem 1rem #222); */
+    box-shadow: 10px 10px 5px #222;
     border-radius: 30px;
 }
 
@@ -71,19 +72,19 @@
 .xibeile-parent-logo {
     position: relative;
     text-align: center;
-    top:8%;
+    top:10%;
 }
 
 .xibeile-parent {
     position: relative;
     text-align: center;
-    top:12%;
+    top:18%;
 }
 
 .xibeile-parent-main {
     position: relative;
     text-align: center;
-    top:23%;
+    top:27%;
     left:50%;
     transform: translate(-50%, -50%);
 }
