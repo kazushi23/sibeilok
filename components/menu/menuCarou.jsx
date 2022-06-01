@@ -37,10 +37,10 @@ class MenuCarou extends Component {
             position: "relative",
             height: "40vh",
             width: "100%",
-            display: "flex",
-            flex: 1,
-            justifyContent: "top",
-            alignItems: "top",
+            // display: "flex",
+            // flex: 1,
+            // justifyContent: "top",
+            // alignItems: "top",
             overflow: "hidden",
         };
       }

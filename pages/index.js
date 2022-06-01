@@ -35,7 +35,6 @@ export default function Home() {
             content="Welcome to SibeiLok. The Lok Lok you wished you had sooner"
             data-rh="true"
             />
-            {/* <meta name="google-site-verification" content="Ko_rEFT7vNWtvG4kCq7iu4DvPJ-sEAu5HCvU_bgu3Pw" /> */}
 
             <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo100.png" />
             <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />

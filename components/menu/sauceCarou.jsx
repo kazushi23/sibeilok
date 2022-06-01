@@ -37,10 +37,10 @@ class SauceCarou extends Component {
             position: "relative",
             height: "50vh",
             width: "100%",
-            display: "flex",
-            flex: 1,
-            justifyContent: "top",
-            alignItems: "top",
+            // display: "flex",
+            // flex: 1,
+            // justifyContent: "top",
+            // alignItems: "top",
             overflow: "hidden",
         };
       }
