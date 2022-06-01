@@ -25,7 +25,7 @@ export default function Home() {
         <>
         <Head>
         <meta charset="utf-8" />
-            <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon"/>
+            <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
             <link rel="canonical" href="https://sibeilok.netlify.app"/>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="theme-color" content="#9ec2a0" />
@@ -36,8 +36,8 @@ export default function Home() {
             data-rh="true"
             />
 
-            <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo100.png" />
-            <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+            <link rel="apple-touch-icon" href="/logo100.png" />
+            <link rel="manifest" href="/manifest.json" />
 
             <title>SibeiLok - Best Lok Lok you had</title>
         </Head>
