@@ -37,10 +37,6 @@ class SauceCarou extends Component {
             position: "relative",
             height: "450px",
             width: "100%",
-            // display: "flex",
-            // flex: 1,
-            // justifyContent: "top",
-            // alignItems: "top",
             overflow: "hidden",
         };
       }
@@ -64,7 +60,7 @@ class SauceCarou extends Component {
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <p className="xibeile-word">Extra @ $1 only!</p>
                     <img className="menu-img-less" src={"/saltedey-nbg.png"} alt="salted egg yolk"/>
-                    <p className="xibeile-word">Salted Egg Yolk</p>
+                    <p className="xibeile-word">Salted Egg Sauce</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <p className="xibeile-word">Extra @ $1 only!</p>
@@ -73,7 +69,7 @@ class SauceCarou extends Component {
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <img className="menu-img-less" src={"/peanut-nbg.png"} alt="satay sauce"/>
-                    <p className="xibeile-word">Peanut Sauce</p>
+                    <p className="xibeile-word">Satay Sauce</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <img className="menu-img-less" src={"/thaichilli-nbg.png"} alt="thai sweet chilli"/>
@@ -81,7 +77,7 @@ class SauceCarou extends Component {
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ SauceCarou.CARD_STYLE }>
                     <img className="menu-img-less" src={"/chicchilli-nbg.png"} alt="chicken rice chilli"/>
-                    <p className="xibeile-word">Chicken Rice Chilli</p>
+                    <p className="xibeile-word">Homemade Chilli</p>
                 </div>
             </ReactCardCarousel>
           </div>

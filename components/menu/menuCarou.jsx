@@ -37,10 +37,6 @@ class MenuCarou extends Component {
             position: "relative",
             height: "380px",
             width: "100%",
-            // display: "flex",
-            // flex: 1,
-            // justifyContent: "top",
-            // alignItems: "top",
             overflow: "hidden",
         };
       }
@@ -103,22 +99,22 @@ class MenuCarou extends Component {
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
                     <img className="menu-img" src={"/mushroom-nbg.png"} alt="mushroom"/>
-                    <p className="xibeile-word">Mushroom</p>
+                    <p className="xibeile-word">Shiitake Mushroom</p>
                     <p className="xibeile-word">$1.20</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
                     <img className="menu-img" src={"/nugget-nbg.png"} alt="nugget"/>
-                    <p className="xibeile-word">Nugget</p>
+                    <p className="xibeile-word">Golden Nugget</p>
                     <p className="xibeile-word">$1.80</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
                     <img className="menu-img" src={"/quail-nbg.png"} alt="quail egg"/>
                     <p className="xibeile-word">Quail Egg</p>
-                    <p className="xibeile-word">$1.80</p>
+                    <p className="xibeile-word">$1.20</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
                     <img className="menu-img" src={"/sausage-nbg.png"} alt="sausage"/>
-                    <p className="xibeile-word">Sausage</p>
+                    <p className="xibeile-word">Taiwan Sausage</p>
                     <p className="xibeile-word">$1.80</p>
                 </div>
                 <div onTouchEnd={this.handleTouchEnd} onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove} style={ MenuCarou.CARD_STYLE }>
