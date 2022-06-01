@@ -52,6 +52,7 @@ export default function Home() {
                 <h3>Gastrobeats @ iLight festival</h3>
                 <h1>Stall T7</h1>
                 <p className="xibeile-word">Mon-Sun | 11am - 1030pm</p>
+                <p className="xibeile-word">3rd - 26th June &#128293;</p>
             </div>
             <div className="menu-heading">
                 <h3>Our Food Items</h3>
