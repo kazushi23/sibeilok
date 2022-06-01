@@ -53,7 +53,7 @@ class SauceCarou extends Component {
             textAlign: 'center',
             cursor: "pointer",      
             userSelect: "none",
-            touchAction: "none", 
+            touchAction: "auto", 
         };
     }
     render() {
