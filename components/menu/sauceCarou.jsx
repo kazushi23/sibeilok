@@ -47,7 +47,7 @@ class SauceCarou extends Component {
 
     static get CARD_STYLE() {
         return {
-            height: "300px",
+            height: "auto",
             width: '65vw',
             maxWidth:"65vw",
             textAlign: 'center',
